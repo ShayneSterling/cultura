@@ -27,7 +27,7 @@ get_header(); ?>
 				if ( comments_open() || get_comments_number() ) :
 					comments_template();
 				endif;
-
+				<h1>this is a test</h1>
 			endwhile; // End of the loop.
 			?>
 
